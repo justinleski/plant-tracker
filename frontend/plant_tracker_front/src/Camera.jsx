@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Webcam from "react-webcam";
 import * as tf from '@tensorflow/tfjs';
 
@@ -54,6 +53,11 @@ function WebcamCapture() {
     
           const result = await response.json();
           console.log("Response from backend:", result);
+
+          // Once we get the response, map it to 
+
+
+
         } catch (error) {
           console.error("Error sending image to backend:", error);
         }
