@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    display: inline;
+    box-sizing: border-box;
+    /* position: fixed; */
+    top: 0;
+    width: 100%;
+    background-color: rgb(67, 65, 65);
+    z-index: 100;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    margin: 4rem;
+    background-color: rgb(40, 39, 37);
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    display: inline;
+    font-size: xx-large;
+}
+
+.navbar ul li:hover {
+    color: rgb(136, 239, 175);
+}
+
+.navbar a {
+    color: inherit;
+}
